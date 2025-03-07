@@ -1,0 +1,275 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Menú de navegación */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+    z-index: 1000;
+}
+
+header nav a button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+header nav a button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Nombre centrado */
+#nomb {
+    text-align: center;
+    padding: 100px 20px 20px; /* Ajuste para el menú fijo */
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#nomb h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Contenedor principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Secciones en recuadros uno al lado del otro */
+#CV {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#CV > div {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Estilos específicos para secciones */
+#nombre-texto p {
+    text-align: justify;
+    color: #555;
+}
+
+#Contacto ul li, #habilidades ul li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-left: 4px solid #ccc;
+}
+
+#Formacion h3, #Experiencia h3 {
+    color: #444;
+    margin-bottom: 5px;
+}
+
+#Formacion p, #Experiencia p {
+    margin: 5px 0;
+    color: #555;
+}
+
+#Experiencia small {
+    display: block;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    color: #555;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Recuadros de proyectos */
+#proyecto1, #proyecto2, #proyecto3 {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#proyecto1 h2, #proyecto2 h2, #proyecto3 h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+#proyecto1 p, #proyecto2 p, #proyecto3 p {
+    color: #555;
+    text-align: justify;
+}
+
+/* Botones */
+button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Recuadros de artículos */
+article {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+article h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+article p {
+    color: #555;
+    text-align: justify;
+}
+
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 100px; /* Ajuste para el menú fijo */
+    font-size: 2em;
+    color: #333;
+}
+
+/* Formulario de contacto */
+form {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+form p {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+
+/* Información de contacto */
+address {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #555;
+}
+
+address p {
+    margin: 5px 0;
+}
