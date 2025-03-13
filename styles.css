@@ -153,7 +153,7 @@ footer a:hover {
 
 
 /* Recuadros de proyectos */
-#proyecto1, #proyecto2, #proyecto3, #proyecto4{
+#proyecto1, #proyecto2, #proyecto3, #proyecto4,#proyecto5{
     background-color: #fff;
     margin: 20px 0;
     padding: 20px;
@@ -162,12 +162,12 @@ footer a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-#proyecto1 h2, #proyecto2 h2, #proyecto3 h2, #proyecto4 h2{
+#proyecto1 h2, #proyecto2 h2, #proyecto3 h2, #proyecto4 h2,#proyecto5 h2{
     color: #333;
     margin-top: 0;
 }
 
-#proyecto1 p, #proyecto2 p, #proyecto3 p, #proyecto4 p {
+#proyecto1 p, #proyecto2 p, #proyecto3 p, #proyecto4 p, #proyecto5 p{
     color: #555;
     text-align: justify;
 }
