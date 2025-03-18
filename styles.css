@@ -162,12 +162,12 @@ footer a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-#proyecto1 h2, #proyecto2 h2, #proyecto3 h2, #proyecto4 h2,#proyecto5 h2,#proyecto6 h2{
+#proyecto1 h2, #proyecto2 h2, #proyecto3 h2, #proyecto4 h2,#proyecto5 h2,#proyecto6 h2,#proyecto7 h2{
     color: #333;
     margin-top: 0;
 }
 
-#proyecto1 p, #proyecto2 p, #proyecto3 p, #proyecto4 p, #proyecto5 p,#proyecto6 p{
+#proyecto1 p, #proyecto2 p, #proyecto3 p, #proyecto4 p, #proyecto5 p,#proyecto6 p,#proyecto7 P{
     color: #555;
     text-align: justify;
 }
