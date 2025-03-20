@@ -1,10 +1,18 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* Estilos generales */
-body {
-    font-family: 'Arial', sans-serif;
+* {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
     color: #333;
+<<<<<<< HEAD
     background-color: #f9f9f9;
 }
 
@@ -101,3 +109,124 @@ a:hover {
     text-decoration: underline;
 }
 
+=======
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos del header y la navegación */
+header {
+    background-color: #1e293b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #2563eb;
+}
+
+/* Estilos del nombre y título */
+#nomb h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #1e293b;
+}
+
+/* Secciones principales */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3b82f6;
+    margin-bottom: 15px;
+}
+
+/* Estilos de listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e0e7ff;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p {
+    margin: 5px 0;
+}
+
+input, textarea {
+    width: 90%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Estilos de los proyectos */
+.proyecto {
+    background: #e0e7ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    #nomb h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+>>>>>>> 6cbf032 (Actualización de estilos: cambio de ID a clases en proyectos)
